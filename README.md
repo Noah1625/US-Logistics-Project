@@ -47,7 +47,7 @@ Before building the dashboard, I performed:
 
 ## Data Model
 
-[Insert data model screenshot here]
+![Data Model](screenshots/datamodel.png)
 
 The Power BI model uses a fact/dimension structure:
 
@@ -73,7 +73,7 @@ Dimension tables:
 
 ## Dashboard
 
-[Insert dashboard screenshot here]
+![Dashboard](screenshots/Dashboard.png)
 
 The dashboard provides:
 
