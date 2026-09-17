@@ -16,7 +16,6 @@ Built as a portfolio project to demonstrate Power BI and business analysis skill
 - How does delivery performance vary by warehouse?
 - What percentage of shipments are delivered, delayed, lost, in transit, or returned?
 - How does shipping cost relate to distance and shipment weight?
-- Where are potential operational outliers?
 
 ## Data
 
@@ -51,7 +50,7 @@ Before building the dashboard, I performed:
 
 The Power BI model uses a fact/dimension structure:
 
-Fact_Shipments
+fact_shipments
 - Shipment_ID
 - Shipment_Date
 - Delivery_Date
@@ -86,7 +85,8 @@ The dashboard provides:
 
 ## Key Findings
 
-- For Carriers, LaserShip has the quickest shipping, while Amazon Logistics has the slowest
+- Total shipments take a big dip in the winter but are at their peak around August/September.
+- For Carriers, LaserShip has the quickest shipping, while Amazon Logistics has the slowest.
 - The New York City Warehouse has the highest delivery rate, while the Miami Warehouse has the lowest.
-- Total shipments take a big dip in the winter but are at their peak around August/September
-  
+- 82.4% of shipments were delivered, 9.95% were delayed, 2.25% were lost, 3.8% were in transit, and 1.6% were returned.
+- Shipping cost increases far more by distance than by weight.
